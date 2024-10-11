@@ -1,0 +1,21 @@
+table{
+    width: 100%;
+    margin: auto;
+
+}
+caption{
+    font-size: 25px;
+    color: orange;
+}
+h1{
+    color: blue;
+    font-weight: 600;
+    text-align: center;
+}
+th{
+    width: 100px;
+    color: black;
+    background-color: greenyellow;
+    text-align: center;
+    font-weight: 500;
+}
