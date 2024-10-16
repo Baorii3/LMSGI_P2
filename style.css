@@ -1,6 +1,8 @@
 table{
     width: 100%;
+    border-collapse: collapse;
     margin: auto;
+    border-color: black;
 
 }
 caption{
@@ -9,13 +11,40 @@ caption{
 }
 h1{
     color: blue;
-    font-weight: 600;
+    font-weight: bold;
     text-align: center;
 }
 th{
     width: 100px;
     color: black;
-    background-color: greenyellow;
+    font-weight: bold;
+    background-color: blanchedalmond;
     text-align: center;
-    font-weight: 500;
+}
+td,th{
+    border: 1px solid;
+}
+td.LMSGI{
+    background-color: blueviolet;
+}
+td.BD{
+    background-color: greenyellow;
+}
+td.PED{
+    background-color: gray;
+}
+td.SI{
+    background-color: red;
+}
+td.TUT{
+    background-color: azure;
+}
+td.AN{
+    background-color: green;
+}
+td.DIW{
+    background-color: darkcyan;
+}
+td.IPOI{
+    background-color: dodgerblue;
 }
